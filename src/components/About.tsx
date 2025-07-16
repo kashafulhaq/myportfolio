@@ -55,10 +55,7 @@ const About: React.FC = () => {
               </h3>
               
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                I'm a passionate full stack web developer with over 2 years of experience creating 
-                digital experiences that are not only visually appealing but also highly functional 
-                and user-friendly. My journey in web development started during my computer science 
-                studies, and I've been hooked ever since.
+                I'm Muhammad Kashaf Ul Haq, a full-stack web developer with a passion for building clean, scalable, and user-focused applications. I specialize in PHP (Laravel), React, Tailwind CSS, and modern frontend tools like Vite. I’ve developed a range of dynamic web apps — from career platforms to esports performance trackers — combining functionality with elegant UI design. I'm continuously learning and excited to take on meaningful, real-world projects.
               </p>
               
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
