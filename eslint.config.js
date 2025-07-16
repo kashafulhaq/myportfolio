@@ -9,7 +9,6 @@ export default tseslint.config(
     ignores: [
       "dist",
       "eslint.config.js",
-      "convex/_generated",
       "postcss.config.js",
       "tailwind.config.js",
       "vite.config.ts",
@@ -30,8 +29,7 @@ export default tseslint.config(
       parserOptions: {
         project: [
           "./tsconfig.node.json",
-          "./tsconfig.app.json",
-          "./convex/tsconfig.json",
+          "./tsconfig.app.json"
         ],
       },
     },
@@ -45,20 +43,13 @@ export default tseslint.config(
         "warn",
         { allowConstantExport: true },
       ],
-      // All of these overrides ease getting into
-      // TypeScript, and can be removed for stricter
-      // linting down the line.
 
-      // Only warn on unused variables, and ignore variables starting with `_`
       "@typescript-eslint/no-unused-vars": [
         "warn",
         { varsIgnorePattern: "^_", argsIgnorePattern: "^_" },
       ],
 
-      // Allow escaping the compiler
       "@typescript-eslint/ban-ts-comment": "error",
-
-      // Allow explicit `any`s
       "@typescript-eslint/no-explicit-any": "off",
 
       // START: Allow implicit `any`s
@@ -69,9 +60,7 @@ export default tseslint.config(
       "@typescript-eslint/no-unsafe-return": "off",
       // END: Allow implicit `any`s
 
-      // Allow async functions without await
-      // for consistency (esp. Convex `handler`s)
-      "@typescript-eslint/require-await": "off",
+      "@typescript-eslint/require-await": "off"
     },
-  },
+  }
 );

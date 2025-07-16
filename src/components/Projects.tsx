@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: "Personal Developer Portfolio",
       description: "A personal portfolio showcasing my projects, resume, and work experience.",
-      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Convex", "ShadCN UI"],
+      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "ShadCN UI"],
       image: "/projects/portfolio.jpg",
       liveDemo: "",
       github: ""
