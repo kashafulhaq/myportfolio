@@ -37,7 +37,6 @@ const Skills: React.FC = () => {
       title: "Languages",
       skills: [
         { name: "TypeScript", level: 85, icon: "🔷" },
-        { name: "JavaScript", level: 90, icon: "🟨" },
         { name: "HTML5", level: 95, icon: "🌐" },
         { name: "CSS3", level: 90, icon: "🎨" },
         { name: "JavaScript", level: 75, icon: "🟨" },
