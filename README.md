@@ -1,3 +1,4 @@
+ HEAD
 # Modern Web Developer Portfolio
   
 This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
@@ -27,3 +28,6 @@ Check out the [Convex docs](https://docs.convex.dev/) for more information on ho
 ## HTTP API
 
 User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+=======
+# myportfolio
+ ae8f2c3ac56c1a351e7b8b975f4f392a00a3e3df
