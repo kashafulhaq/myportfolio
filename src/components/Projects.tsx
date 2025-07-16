@@ -56,8 +56,8 @@ const Projects: React.FC = () => {
       description: "A personal portfolio showcasing my projects, resume, and work experience.",
       technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "ShadCN UI"],
       image: "/projects/portfolio.jpg",
-      liveDemo: "",
-      github: ""
+      liveDemo: "https://kashafsportfolio.netlify.app",
+      github: "https://github.com/kashafulhaq/myportfolio.git"
     },
     {
       id: 4,
