@@ -55,7 +55,7 @@ const About: React.FC = () => {
               </h3>
               
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                I'm a passionate frontend web developer with over 2 years of experience creating 
+                I'm a passionate full stack web developer with over 2 years of experience creating 
                 digital experiences that are not only visually appealing but also highly functional 
                 and user-friendly. My journey in web development started during my computer science 
                 studies, and I've been hooked ever since.
